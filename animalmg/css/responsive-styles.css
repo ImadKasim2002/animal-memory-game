@@ -1,0 +1,315 @@
+@media screen and (min-width:600px){
+  .heading {
+    font-size: 1.3em;
+  }
+  .modal {
+    overflow: hidden;
+    height: auto;
+  }
+  /* Modal Content */
+  .level-modal-content .intro {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+  }
+  .level.easy {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+  .level.medium {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+  .level.hard {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+  }
+  .level.expert {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+  }
+  /* theme selections styling */
+  .selectPack {
+    display: inline-block;
+  }
+  .Easy .theme-selection-area .intro {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+  }
+  .Easy .selectPack.one {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    font-size: x-large;
+  }
+  .Easy .selectPack.two {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    font-size: x-large;
+  }
+  .theme-selection-area .intro {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+  }
+  .selectPack.one {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    font-size: x-large;
+  }
+  .selectPack.two {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    font-size: x-large;
+  }
+  .selectPack.three {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    font-size: x-large;
+  }
+  .Expert .theme-selection-area .intro {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+  }
+  .Expert .selectPack.one {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    font-size: x-large;
+  }
+  .Expert .selectPack.two {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    font-size: x-large;
+  }
+  /*
+   * Styles for the deck of cards
+   */
+  /* styling for all decks */
+  /* styling for easy decks */
+  .deck.easy {
+    height: 90%;
+    width: 90%;
+    max-width: 580px;
+  }
+  .deck.easy .card {
+      height: 7em;
+      width: 7em;
+  }
+  /* medium decks styling */
+  .deck.medium {
+    max-width: 540px;
+  }
+  .deck.medium .card {
+      height: 7em;
+      width: 7em;
+  }
+  /* styling for hard decks */
+  .deck.hard {
+    max-width: 520px;
+  }
+  .deck.hard .card {
+    height: 6.5em;
+    width: 6.5em;
+  }
+  /* styling for expert decks */
+  .deck.expert {
+    max-width: 560px;
+  }
+  .deck.expert .card {
+    height: 7em;
+    width: 7em;
+  }
+  /* winning modal styling */
+  .congrats {
+    font-size: 0;
+  }
+  .congrats.live {
+    font-size: 2.5em;
+  }
+  .winModal {
+    top: 22%;
+    left: 25%;
+    width: 50%;
+    margin: auto;
+    font-size: 1.2em;
+    overflow: hidden;
+  }
+  /* end of screen min-width 600px */
+}
+@media screen and (min-width:800px){
+  .modal {
+      left: 20%;
+      top: 10%;
+      width: 60%;
+      height: auto;
+      max-height: 100%;
+      overflow: hidden;
+  }
+  .level-modal-content .intro {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 2;
+  }
+  .level.easy {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+  .level.medium {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+  .level.hard {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+  .level.expert {
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+  .Easy .selectPack.one {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+  .Easy .selectPack.two {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+  .theme-selection-area .intro {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+  }
+  .selectPack.one {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+  .selectPack.two {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+  .selectPack.three {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+  .Expert .theme-selection-area .intro {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+  }
+  .Expert .selectPack.one {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+  .Expert .selectPack.two {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+  /* Styles for the deck of cards */
+  /* styling for easy decks */
+  .deck.easy {
+    width: 90%;
+    height: 95%;
+    max-width: 740px;
+  }
+  .deck.easy .card {
+    height: 9em;
+    width: 9em;
+  }
+  /* medium decks styling */
+  .deck.medium {
+    width: 90%;
+    height: 90%;
+    max-width: 680px;
+  }
+  .deck.medium .card {
+    height: 9em;
+    width: 9em;
+  }
+  /* styling for hard decks */
+  .deck.hard {
+    width: 90%;
+    height: 90%;
+    max-width: 740px;
+  }
+  .deck.hard .card {
+    height: 9em;
+    width: 9em;
+  }
+  /* styling for expert decks */
+  .deck.expert {
+    width: 95%;
+    height: 95%;
+    max-width: 720px;
+  }
+  .deck.expert .card {
+    height: 8em;
+    width: 8em;
+  }
+  /* congratulations animation styling */
+  .congrats {
+    font-size: 0;
+  }
+  .congrats.live {
+    font-size: 3em;
+    left: 35%;
+  }
+  /* winning modal styling */
+  .winModal {
+    top: 22%;
+    left: 25%;
+    margin: auto;
+    font-size: 1.2em;
+  }
+}
